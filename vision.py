@@ -4,8 +4,7 @@ import base64
 
 
 client = OpenAI()
-OpenAI.api_key = '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'
-
+OpenAI.api_key = "API KEY"
 
 
 
