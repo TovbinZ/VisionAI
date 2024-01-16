@@ -9,12 +9,12 @@ from vision import Multiple
 
 def Main(image,Question,QuestionType,Tokens, IsConsice):
 
-	source = "/Users/zevtovbin/Desktop/GradioVision/image1.png"
-	destination = "/Users/zevtovbin/Desktop/GradioVision/image2.png"
+	source = "image1.png"
+	destination = "image2.png"
 	shutil.copyfile(source, destination)
 
 	source2 = image
-	destination2 = "/Users/zevtovbin/Desktop/GradioVision/image1.png"
+	destination2 = "image1.png"
 	shutil.copyfile(source2,destination2)
 
 

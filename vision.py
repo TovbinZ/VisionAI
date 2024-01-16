@@ -4,7 +4,7 @@ import base64
 
 
 client = OpenAI()
-OpenAI.api_key = "API KEY"
+# OpenAI.api_key = "API KEY"
 
 
 
@@ -18,8 +18,8 @@ def Multiple(Question, IsConsice, Tokens):
 
 
 
-    image_path1 = "/Users/zevtovbin/Desktop/GradioVision/image1.png"
-    image_path2 = "/Users/zevtovbin/Desktop/GradioVision/image2.png"
+    image_path1 = "image1.png"
+    image_path2 = "image2.png"
 
 
     base64_image1= encode_image(image_path1)
@@ -66,8 +66,8 @@ def Single(Question, IsConsice, Tokens):
 
 
 
-    image_path1 = "/Users/zevtovbin/Desktop/GradioVision/image1.png"
-    image_path2 = "/Users/zevtovbin/Desktop/GradioVision/image2.png"
+    image_path1 = "image1.png"
+    image_path2 = "image2.png"
 
 
     base64_image1= encode_image(image_path1)
